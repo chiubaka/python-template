@@ -16,3 +16,4 @@ A sample Python template project equipped with modern tooling for development.
 - To run the project: `poetry run python python_template/main.py`
 - To lint the project: `poetry run flake8`
 - To auto-format the project: `poetry run black .`
+- To run tests: `poetry run pytest`
