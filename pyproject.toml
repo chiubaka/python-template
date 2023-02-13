@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-template"
+version = "0.0.0"
+description = "A sample Python template project equipped with modern tooling for development."
+authors = ["Daniel Chiu <daniel@chiubaka.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
