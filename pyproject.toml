@@ -5,7 +5,7 @@ description = "A sample Python template project equipped with modern tooling for
 authors = ["Daniel Chiu <daniel@chiubaka.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "src"}]
+packages = [{include = "python_template"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
